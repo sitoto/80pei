@@ -9,12 +9,12 @@ This is the source code of [80pei.com](http://80pei.com) website.
 
 ## Install
 
-'''bash
+```bash
 git clone git://github.com/sitoto/80pei.git
 cd 80pei
 ruby setup.rb
 rails s
-'''
+```
 
 ## License
 
