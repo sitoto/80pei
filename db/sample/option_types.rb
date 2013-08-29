@@ -1,12 +1,12 @@
 option_types = [
   {
-  :name => "tshirt-size",
-  :presentation => "Size",
+  :name => "led-car",
+  :presentation => "适配车型",
   :position => 1
 },
   {
-  :name => "tshirt-color",
-  :presentation => "Color",
+  :name => "led-color",
+  :presentation => "颜色分类",
   :position => 2
 }
 ]

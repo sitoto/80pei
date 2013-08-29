@@ -1,3 +1,4 @@
+=begin
 Spree::Sample.load_sample("option_types")
 
 size = Spree::OptionType.find_by_presentation!("Size")
@@ -51,3 +52,4 @@ option_values = [
 option_values.each do |option_value_attrs|
   Spree::OptionValue.create!(option_values, :without_protection => true)
 end
+=end

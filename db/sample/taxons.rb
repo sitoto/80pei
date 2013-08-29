@@ -1,8 +1,8 @@
 Spree::Sample.load_sample("taxonomies")
 Spree::Sample.load_sample("products")
 
-categories = Spree::Taxonomy.find_by_name!("Categories")
-brands = Spree::Taxonomy.find_by_name!("Brand")
+categories = Spree::Taxonomy.find_by_name!("改装灯饰")
+brands = Spree::Taxonomy.find_by_name!("汽车香水")
 
 products = { 
   :ror_tote => "Ruby on Rails Tote",
