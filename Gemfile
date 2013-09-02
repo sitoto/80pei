@@ -30,14 +30,14 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger
 # gem 'debugger'
-#gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
+# gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
 
 
 
