@@ -7,7 +7,7 @@ default_run_options[:pty] = true  # Must be set for the password prompt
 set :rvm_ruby_string, 'ruby-2.0.0-p247'
 set :rvm_type, :user
 set :application, "80pei"
-set :repository, "git://github.com/sitoto/ruby.git"
+set :repository, "git://github.com/sitoto/80pei.git"
 set :branch, "master"
 set :scm, :git
 set :user, "ruby"
