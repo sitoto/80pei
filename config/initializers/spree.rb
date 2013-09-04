@@ -7,6 +7,9 @@
 # config.setting_name = 'new value'
 Spree.config do |config|
   config.site_name = "80PEI Site"
+  config.allow_ssl_in_staging = false
+  config.allow_ssl_in_production = false
+
 end
 
 Spree.user_class = "Spree::User"
