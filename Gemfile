@@ -42,9 +42,17 @@ end
 # To use debugger
 # gem 'debugger'
 # gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
-
+#
+# for the activemerchant_patch_for_china
+gem 'ruby-hmac'
 
 
 gem 'spree', '2.0.4'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
+
+gem 'activemerchant'
+#gem 'active_merchant', github: 'Shopify/active_merchant'
+gem 'activemerchant_patch_for_china'
+gem 'spree_alipay', github: 'RuanShan/spree_alipay', branch: '2-0-stable' 
+
 

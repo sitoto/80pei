@@ -1,4 +1,14 @@
 GIT
+  remote: git://github.com/RuanShan/spree_alipay.git
+  revision: 9bb20b33210dc504f80151871e04ca56de2e62a9
+  branch: 2-0-stable
+  specs:
+    spree_alipay (1.0.0)
+      activemerchant
+      activemerchant_patch_for_china
+      spree_core (~> 2.0.0)
+
+GIT
   remote: git://github.com/spree/spree_auth_devise.git
   revision: 3a1aa02e73d3f6bcbb834a47366c41f6e5ca1049
   branch: 2-0-stable
@@ -37,6 +47,7 @@ GEM
       json (>= 1.5.1)
       money
       nokogiri (< 1.6.0)
+    activemerchant_patch_for_china (0.2.0)
     activemodel (3.2.14)
       activesupport (= 3.2.14)
       builder (~> 3.0.0)
@@ -175,6 +186,7 @@ GEM
       polyamorous (~> 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    ruby-hmac (0.4.0)
     rvm-capistrano (1.4.1)
       capistrano (>= 2.0.0)
     sass (3.2.10)
@@ -269,14 +281,18 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activemerchant
+  activemerchant_patch_for_china
   capistrano (= 2.9.0)
   coffee-rails (~> 3.2.1)
   jquery-rails
   mysql2
   rails (= 3.2.14)
+  ruby-hmac
   rvm-capistrano
   sass-rails (~> 3.2.3)
   spree (= 2.0.4)
+  spree_alipay!
   spree_auth_devise!
   uglifier (>= 1.0.3)
   unicorn
