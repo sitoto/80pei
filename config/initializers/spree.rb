@@ -6,9 +6,10 @@
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
-  config.site_name = "80PEI Site"
+  config.site_name = '80PEI Site'
   config.allow_ssl_in_staging = false
   config.allow_ssl_in_production = false
+  config.currency = 'CNY'
 
 end
 
