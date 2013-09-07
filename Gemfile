@@ -45,7 +45,7 @@ end
 #
 # for the activemerchant_patch_for_china
 gem 'ruby-hmac'
-
+gem 'rails-i18n'
 
 gem 'spree', '2.0.4'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
