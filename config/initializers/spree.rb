@@ -10,6 +10,8 @@ Spree.config do |config|
   config.allow_ssl_in_staging = false
   config.allow_ssl_in_production = false
   config.currency = 'CNY'
+  config.logo = 'store/logo.png'
+  config.admin_interface_logo = 'store/logo.png'
 
 end
 

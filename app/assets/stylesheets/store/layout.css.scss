@@ -1,4 +1,32 @@
-#logo{
-  font-size: 32px;
-  color: #000;
+@import 'variables';
+
+$c_blue : #50A2F3;
+$c_gray : #EFEFEF;
+$c_orange : #FF9600;
+
+body {
+}
+.g{
+width: 960px;
+margin: 0 auto;
+zoom: 1;
+}
+.peitop {
+  min-width: 960px;
+  height: 28px;
+  line-height: 28px;
+  border-bottom: 1px solid $c_gray;
+
+  h1 {
+    font-weight: 400;
+    color: $body_text_color;
+
+    a {
+      color: $c_orange;
+
+      &:hover {
+        color: $c_green !important;
+      }
+    }
+  }
 }
