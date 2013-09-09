@@ -618,6 +618,7 @@ zh-CN:
     login_failed: 登陆认证失败。
     login_name: 用户名
     logout: 登出/注销
+    signup: 免费注册
     look_for_similar_items: 寻找类似的产品
     maestro_or_solo_cards: Maestro/Solo cards
     mail_method_settings: 邮件方式设置
@@ -1064,6 +1065,7 @@ zh-CN:
     variants: 具体型号
     version: 版本
     void: 作废
+    welcome: 欢迎您
     weight: 重量
     what_is_a_cvv: 信用卡验证码(CVV)是什么
     what_is_this: 这是什么?

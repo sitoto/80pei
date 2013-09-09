@@ -1,6 +1,14 @@
 <!-- insert_top '[data-hook="body"]' -->
 <div class="peitop">
   <div class="g">
-    <div> 欢迎来的八零配！ </div>
+    <div class="f1"> 欢迎来到80配！
+    <% if spree_current_user %>
+     [<%= Spree.t(:welcome) %>,<%= link_to spree_current_user.email, spree.account_path %>][
+     <%= link_to Spree.t(:logout), spree.logout_path %>]
+    <% else %>
+     [ <%= link_to Spree.t(:login), spree.login_path %>]
+     [ <%= link_to Spree.t(:signup), spree.signup_path %>]
+    <% end %>
+    </div>
   </div>
 </div>

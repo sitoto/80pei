@@ -6,16 +6,31 @@ $c_orange : #FF9600;
 
 body {
 }
-.g{
+
+.g {
 width: 960px;
 margin: 0 auto;
 zoom: 1;
+
+ &:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+ }
 }
+
 .peitop {
   min-width: 960px;
   height: 28px;
   line-height: 28px;
   border-bottom: 1px solid $c_gray;
+
+  .f1 {
+    float: left
+  }
 
   h1 {
     font-weight: 400;

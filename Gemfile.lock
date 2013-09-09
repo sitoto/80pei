@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/sitoto/spree_alipay.git
-  revision: 7db9484c69946be301c40a12a68054785d9a5953
+  revision: 58c18a4671219db45e27d6dad281cd1db3198ce9
   branch: 2-0-stable
   specs:
     spree_alipay (1.0.0)
@@ -131,7 +131,7 @@ GEM
     mime-types (1.25)
     money (5.1.1)
       i18n (~> 0.6.0)
-    multi_json (1.7.9)
+    multi_json (1.8.0)
     multi_xml (0.5.5)
     mysql2 (0.3.13)
     net-scp (1.1.2)
