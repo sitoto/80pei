@@ -1,0 +1,5 @@
+<!-- surround_contents '#header' -->
+<!-- sequence :after => 'remove_main_nav_bar_in_header' -->
+<div class="container">
+  <%= render_original  %>
+</div>

@@ -1,0 +1,6 @@
+<!-- insert_after '#header' -->
+<div class="mnav">
+  <div class="container">
+    <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+  </div>
+</div>
