@@ -1,7 +1,7 @@
 <!-- insert_top '[data-hook="body"]' -->
 <div class="peitop">
   <div class="g">
-    <div class="f1"> 欢迎来到80配！
+    <div class="fl"> 欢迎来到80配！
     <% if spree_current_user %>
      [<%= Spree.t(:welcome) %>,<%= link_to spree_current_user.email, spree.account_path %>][
      <%= link_to Spree.t(:logout), spree.logout_path %>]
