@@ -15,6 +15,6 @@
     <% if spree_current_user %>
       <%= link_to Spree.t(:my_orders), spree.account_path %> | 
     <% end %>
-    <%= link_to_cart %>
+    <span id="link-to-cart0"><%= link_to_cart %></span>
   </div>
 </div>
