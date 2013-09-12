@@ -11,23 +11,7 @@ body {
   width: 100%;
 }
 
-.g {
-width: 960px;
-margin: 0 auto;
-zoom: 1;
-
- &:after {
-  content: " ";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-  overflow: hidden;
- }
-}
-
 .peitop {
-  min-width: 960px;
   height: 28px;
   line-height: 28px;
   border-bottom: 1px solid $c_gray;
@@ -54,7 +38,6 @@ zoom: 1;
 }
 
 .mnav {
-  min-width: 960px;
   height: 40px;
   padding-top: 1px;
   background-position: 0 0;

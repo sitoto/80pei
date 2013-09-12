@@ -1,20 +1,20 @@
-<!-- insert_top '[data-hook="body"]' -->
-<div class="peitop">
-  <div class="g">
-    <div class="fl"> 欢迎来到80配！
-      <% if spree_current_user %>
-       [<%= Spree.t(:welcome) %>,<%= link_to spree_current_user.email, spree.account_path %>][
-       <%= link_to Spree.t(:logout), spree.logout_path %>]
-      <% else %>
-       [ <%= link_to Spree.t(:login), spree.login_path %>]
-       [ <%= link_to Spree.t(:signup), spree.signup_path %>]
-      <% end %>
-    </div>
-    <div class="fr">
-      <% if spree_current_user %>
-        <%= link_to Spree.t(:my_orders), spree.account_path %> | 
-      <% end %>
-      <%= link_to_cart %>
-    </div>
+<!-- insert_before 'code[erb-loud]:contains("spree/shared/header")' -->
+<!-- sequence :after => 'unwrap_header_from_container_class' -->
+
+<div class="container peitop">
+  <div class="fl"> 欢迎来到80配！
+    <% if spree_current_user %>
+     [<%= Spree.t(:welcome) %>,<%= link_to spree_current_user.email, spree.account_path %>][
+     <%= link_to Spree.t(:logout), spree.logout_path %>]
+    <% else %>
+     [ <%= link_to Spree.t(:login), spree.login_path %>]
+     [ <%= link_to Spree.t(:signup), spree.signup_path %>]
+    <% end %>
+  </div>
+  <div class="fr">
+    <% if spree_current_user %>
+      <%= link_to Spree.t(:my_orders), spree.account_path %> | 
+    <% end %>
+    <%= link_to_cart %>
   </div>
 </div>
