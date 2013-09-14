@@ -21,6 +21,15 @@ GIT
       spree_frontend (~> 2.0.0)
 
 GIT
+  remote: git://github.com/spree/spree_editor.git
+  revision: 479453239fcdd472d1346ba11a48b90063831bac
+  specs:
+    spree_editor (2.0.0)
+      ckeditor
+      spree_backend (>= 2.0.0)
+      tinymce-rails (~> 3.5.8.3)
+
+GIT
   remote: git://github.com/spree/spree_static_content.git
   revision: a9d17d7fe22b29702662f14ecefb4337fbe5d196
   branch: 2-0-stable
@@ -91,6 +100,9 @@ GEM
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
+    ckeditor (4.0.6)
+      mime-types
+      orm_adapter
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.1)
@@ -267,6 +279,10 @@ GEM
     stringex (1.5.1)
     thor (0.18.1)
     tilt (1.4.1)
+    tinymce-rails (3.5.8.3)
+      railties (>= 3.1.1)
+    tinymce-rails-langs (3.20130625)
+      tinymce-rails (~> 3.5, >= 3.5.8.3)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
@@ -305,6 +321,8 @@ DEPENDENCIES
   spree (= 2.0.4)
   spree_alipay!
   spree_auth_devise!
+  spree_editor!
   spree_static_content!
+  tinymce-rails-langs
   uglifier (>= 1.0.3)
   unicorn

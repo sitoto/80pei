@@ -11,3 +11,4 @@
 
 //= require_tree .
 //= require admin/spree_alipay
+//= require admin/spree_editor

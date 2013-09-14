@@ -50,6 +50,8 @@ gem 'rails-i18n'
 gem 'spree', '2.0.4'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
 gem 'spree_static_content', :github => 'spree/spree_static_content', :branch => '2-0-stable'
+gem 'spree_editor', :github => "spree/spree_editor"
+gem 'tinymce-rails-langs'
 
 gem 'activemerchant'
 #gem 'active_merchant', github: 'Shopify/active_merchant'
