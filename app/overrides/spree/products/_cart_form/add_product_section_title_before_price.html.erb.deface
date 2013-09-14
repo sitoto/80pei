@@ -1,0 +1,2 @@
+<!-- insert_before 'div#product-price > div > span.price' -->
+<span class="product-section-title"><%= Spree.t(:price) %></span>

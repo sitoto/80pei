@@ -312,6 +312,7 @@ DEPENDENCIES
   capistrano (= 2.9.0)
   coffee-rails (~> 3.2.1)
   jquery-rails
+  jquery-ui-rails
   mysql2
   rails (= 3.2.14)
   rails-i18n

@@ -1,1 +1,1 @@
-remove '#header > code[erb-loud]:contains("main_nav_bar")'                                                                                                            
+remove '#header > code[erb-loud]:contains("main_nav_bar")'      

@@ -1,0 +1,5 @@
+<!-- insert_after 'h1.product-title' -->
+<!-- sequence :after => 'remove_cart_form' -->
+<div id="cart-form" data-hook="cart_form">
+  <%= render :partial => 'cart_form' %>
+</div>
