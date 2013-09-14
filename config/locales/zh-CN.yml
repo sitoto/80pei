@@ -307,7 +307,7 @@ zh-CN:
     all: 全部
     all_adjustments_closed: 所有价格调整已被成功禁用！
     all_adjustments_opened: 所有价格调整已被成功启用！
-    all_departments: 所有部门
+    all_departments: 全部产品
     allow_ssl_in_development_and_test: 允许在开发以及测试模式下使用SSL
     allow_ssl_in_production: 允许在生产模式下使用SSL
     allow_ssl_in_staging: 允许在演示模式下使用SSL
