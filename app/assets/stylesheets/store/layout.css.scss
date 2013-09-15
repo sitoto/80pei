@@ -95,3 +95,54 @@ nav #main-nav-bar {
   font-weight: 700;
   color: $title_text_color;
 }
+
+
+/*--------------------------------------*/
+/* Footer
+/*--------------------------------------*/
+
+footer#footer {
+//  background: image-url("store/footer-bg.png") repeat center;
+//  background-color: lighten($c_blue, 5);
+  margin-top: 30px;
+  border-top: 5px solid lighten($c_blue, 30);
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+
+  &, a, h5 {
+    color: #666;
+  }
+
+  a:hover {
+    color: $c_red !important;
+    text-decoration: underline; 
+  }
+  #footer-pagesinfo {
+    color: #616161;
+    a {
+      margin-right: 8px;
+    }
+  }
+  h5 {
+    text-transform: uppercase;
+    line-height: 52px;
+    margin-bottom: 23px;
+    font-size: 17px;
+  }
+  p {
+    padding: 0;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+
+    }
+  }
+}
+
+
+
