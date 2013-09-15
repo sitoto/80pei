@@ -945,7 +945,7 @@ zh-CN:
     shipping_method: 配送方式
     shipping_methods: 配送方式
     shipping_price_sack: 
-    shop_by_taxonomy: 根据%{taxonomy}购物
+    shop_by_taxonomy: '%{taxonomy}'
     shopping_cart: 购物车
     show: 显示
     show_active: 显示激活的
