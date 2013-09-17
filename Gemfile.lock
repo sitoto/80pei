@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/sitoto/money.git
+  revision: 0fadb6fca4bc827c9dc05a118920a093eb82d978
+  specs:
+    money (5.1.1)
+      i18n (~> 0.6.0)
+
+GIT
   remote: git://github.com/sitoto/spree_alipay.git
   revision: 58c18a4671219db45e27d6dad281cd1db3198ce9
   branch: 2-0-stable
@@ -149,8 +156,6 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25)
-    money (5.1.1)
-      i18n (~> 0.6.0)
     multi_json (1.8.0)
     multi_xml (0.5.5)
     mysql2 (0.3.13)
@@ -312,6 +317,7 @@ DEPENDENCIES
   capistrano (= 2.9.0)
   coffee-rails (~> 3.2.1)
   jquery-rails
+  money!
   mysql2
   rails (= 3.2.14)
   rails-i18n
