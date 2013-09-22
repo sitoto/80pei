@@ -143,6 +143,21 @@ footer#footer {
     }
   }
 }
+/*--------------------------------------*/
+/* Cart
+/*--------------------------------------*/
 
+div[data-hook="inside_cart_form"] {
+  .m {
+    margin-top: 5px;
+  }
+  button.checkout {
+    font-size: 18px;
+    height: 40px;
+    width: 110px;
+    margin-left: 15px;
+  }
+
+}
 
 
