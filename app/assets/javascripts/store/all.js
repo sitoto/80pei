@@ -8,6 +8,7 @@
 //= require jquery_ujs
 
 //= require store/spree_frontend
+//= require jquery.validate/localization/messages_cn
 
 //= require_tree .
 //= require store/spree_alipay

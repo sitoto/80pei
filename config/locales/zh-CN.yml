@@ -1000,7 +1000,7 @@ zh-CN:
     tax: 税
     tax_categories: 缴税分类
     tax_category: 缴税分类
-    tax_rate_amount_explanation: 
+    tax_rate_amount_explanation: 税率解释 
     tax_rates: 税率
     tax_settings: 缴税设置
     tax_total: 税款总额
@@ -1028,12 +1028,12 @@ zh-CN:
     to_add_variants_you_must_first_define: 要添加具体型号，您需要先定义
     total: 总计
     tracking: 追踪
-    tracking_number: 
-    tracking_url: 
+    tracking_number: tracking_number
+    tracking_url: tracing_url
     tracking_url_placeholder: 比如，http://quickship.com/package?num=:tracking
-    transfer_from_location: 
-    transfer_stock: 
-    transfer_to_location: 
+    transfer_from_location: 从哪发货 
+    transfer_stock: transfer stock 
+    transfer_to_location: 发货到哪
     tree: 树
     type: 类型
     type_to_search: 搜索类型
@@ -1052,7 +1052,7 @@ zh-CN:
     user_rule:
       choose_users: 选择用户
     users: 用户详情
-    validation:
+    validation: 
       cannot_be_less_than_shipped_units: 不能少于已配送的单位数。
       cannot_destory_line_item_as_inventory_units_have_shipped: Cannot destory line item as some inventory units have shipped.
       exceeds_available_stock: 超出可用的库存。请确认订单项拥有有效的数量。
@@ -1061,7 +1061,7 @@ zh-CN:
       must_be_non_negative: 不能为负数
     value: 价值
     variant: 具体型号
-    variant_placeholder: 
+    variant_placeholder: 选择型号
     variants: 具体型号
     version: 版本
     void: 作废
