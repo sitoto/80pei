@@ -1,0 +1,15 @@
+<!-- replace_contents 'div.adr' -->
+  <div class="street-address">
+     <% unless address.address2.blank? %>
+      <div class="street-address-line">
+        <%= address.address2 %>
+      </div>
+    <% end %>
+  </div>
+  <div class="local">
+    <span class="country-name"><%= address.country.try(:name) %></span>
+    <span class="region"><%= address.state %></span>
+    <span class="locality"><%= address.city %></span>
+    <span class="street-address-line"><%= address.address1 %> </span>
+    <span class="postal-code"><%= address.zipcode %></span>
+  </div>

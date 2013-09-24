@@ -5,6 +5,8 @@
 #
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
+Spree::AddressBook::Config.set(:disable_bill_address => true)
+
 Spree.config do |config|
   config.site_name = '帮你配 汽车服务网'
   config.allow_ssl_in_staging = false

@@ -10,7 +10,7 @@ zh-CN:
         lastname: 姓氏
         phone: 电话
         state: 省份
-        zipcode: 邮政编码
+        zipcode: 邮编
       spree/country:
         iso: ISO
         iso3: ISO3
@@ -55,7 +55,7 @@ zh-CN:
         state: 省份
         zipcode: 邮政编码
       spree/order/ship_address:
-        address1: di zhi
+        address1: 地址 
         city: 城市
         firstname: 名字
         lastname: 姓氏
@@ -912,7 +912,7 @@ zh-CN:
     server_error: 服务器返回了一个错误
     settings: 设置
     ship: 发货
-    ship_address: 配送地址
+    ship_address: 收货地址
     ship_total: 
     shipment: 配送
     shipment_inc_vat: 包含增值税的配送
@@ -935,7 +935,7 @@ zh-CN:
     shipments: 配送
     shipped: 已发货
     shipping: 配送中
-    shipping_address: 配送地址
+    shipping_address: 收货地址
     shipping_categories: 配送类型
     shipping_category: 配送分类
     shipping_flat_rate_per_item: 
@@ -1078,3 +1078,5 @@ zh-CN:
     zipcode: 邮编
     zone: 区域
     zones: 区域
+    owner_name: 收货人
+    owner_phone: 联系电话

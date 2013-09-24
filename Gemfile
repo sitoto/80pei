@@ -60,4 +60,6 @@ gem 'activemerchant'
 gem 'activemerchant_patch_for_china'
 gem 'spree_alipay', github: 'sitoto/spree_alipay', branch: '2-0-stable' 
 #gem "spree_alipay", :path => "/home/hw/sites/spree_alipay", branch: '2-0-stable'
+gem "spree_address_book", github: "sitoto/spree_address_book", branch: '2-0-stable'
+#gem "spree_address_book", path: "/home/hw/sites/spree_address_book", branch: '2-0-stable'
 

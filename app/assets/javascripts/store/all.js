@@ -12,3 +12,4 @@
 
 //= require_tree .
 //= require store/spree_alipay
+//= require store/spree_address_book
