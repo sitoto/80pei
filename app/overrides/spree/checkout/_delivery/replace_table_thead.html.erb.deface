@@ -1,0 +1,5 @@
+<!-- replace_contents 'thead' -->
+<th><%= Spree.t('image')</th>
+<th><%= Spree.t('product')</th>
+<th><%= Spree.t('quantity')</th>
+<th><%= Spree.t('price')</th>
