@@ -45,9 +45,11 @@ task :init_shared_path, :roles => :web do
   run "mkdir -p #{deploy_to}/shared/pids"
   run "mkdir -p #{deploy_to}/shared/assets"
   run "mkdir -p #{deploy_to}/shared/public/spree"
+  run "mkdir -p #{deploy_to}/shared/public/ckeditor_assets"
 end
 
 task :link_shared_files, :roles => :web do
+  run "ln -sf #{deploy_to}/shared/public/ckeditor_assets #{deploy_to}/current/public/ckeditor_assets"
   run "ln -sf #{deploy_to}/shared/public/spree #{deploy_to}/current/public/spree"
   run "ln -sf #{deploy_to}/shared/config/*.yml #{deploy_to}/current/config/"
   run "ln -sf #{deploy_to}/shared/config/unicorn.rb #{deploy_to}/current/config/"
