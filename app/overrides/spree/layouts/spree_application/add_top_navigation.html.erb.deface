@@ -12,6 +12,6 @@
     <% end %>
   </div>
   <div class="fr">
-    <span id="link-to-cart0"><%= link_to_cart %></span>
+    <a href="javascript:addToFavorite()" rel="nofollow">加入收藏</a>
   </div>
 </div>
